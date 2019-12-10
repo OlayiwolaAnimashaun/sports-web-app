@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+<link rel='stylesheet' href='/stylesheets/style.css' />
+    <title>Sports Training Web Application</title>
+
+		 </head>
+  <body>
+
+		
+	<!-- Start of first page: #home -->
+    <div data-role="page" id="one">
+    <div data-role="header" id="header">
+	<h2>Sports Training Web Application</h2>
+	</div>
+				<!-- /header -->
+	    <div data-role="navbar" class="ui-btn ui-shadow ui-corner-all ui-btn-b">
+				<h2>WELCOME TO SPORTS TRANING WEB APPPLICATION</h2>
+				<ul>
+						
+		<li><a class="active" href="#one">Home</a></li>
+		<li><a href="#sports">All Sports</a></li>
+		<li><a href="#coach">Training Coach</a></li>
+		<li><a href="#login">Login</a></li>
+		<li><a href="#registeration">Register</a></li>
+	</ul>
+	<img src="/images/allsports.jpg" alt="" width="1350" height="300">
+	
+ </div>
+ <!-- /navbar -->
+	
+ <div role="main" class="ui-content ui-btn-b">
+</div><!-- /content -->
+<div data-role="footer" data-theme="a">
+	<h9></h4>.     Copyright © 2019  Sports And Training Web Application All rights reserved. </h9>
+	</div><!-- /footer -->
+</div><!-- /page home -->
+
+<!-- strt of all sports-->
+<div data-role="page" id="sports" data-theme="a">
+
+	<div data-role="header">
+
+	<h1>All Sports</h1>
+
+	</div><!-- /header -->
+<div role="main" class="ui-content">
+	<img src="/images/allsports.jpg" alt="Just Eat" width="1500" height="150">
+		
+	
+	<div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+    <div data-role="collapsible">
+		<h3>Basketball</h3>
+		<div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+			<div data-role="collapsible">
+				<h3>Drills</h3>
+			<p>You will See the Drills you can do</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Vedios</h3>
+			<p>Vedios will be posted here to for training </p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Practice</h3>
+			<p>The practice you need to do make it better </p>
+			</div>
+		</div>
+    </div>
+    <div data-role="collapsible">
+        <h3>Cricket</h3>
+		<div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+			<div data-role="collapsible">
+				<h3>Drills</h3>
+			<p>You will See the Drills you can do</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Vedios</h3>
+			<p>Vedios will be posted here to for training </p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Practice</h3>
+			<p>The practice you need to do make it better </p>
+			</div>
+		</div>
+    </div>
+    <div data-role="collapsible">
+        <h3>Football</h3>
+		<div data-role="collapsibleset" data-theme="a" data-content-theme="a">
+			<div data-role="collapsible">
+				<h3>Drills</h3>
+			<p>You will See the Drills you can do</p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Vedios</h3>
+			<p>Vedios will be posted here to for training </p>
+			</div>
+			<div data-role="collapsible">
+				<h3>Practice</h3>
+			<p>The practice you need to do make it better </p>
+			</div>
+		</div>
+    </div>
+</div>
+
+	
+	<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to Home Screen</a></p>
+</div><!-- /content -->
+<div data-role="footer">
+<h9></h4>Copyright © 2019  Sports And Training Web Application All rights reserved. </h9>
+</div><!-- /footer -->
+</div><!-- /page manager -->
+<!-- Start of login page: #login -->
+
+<div data-role="page" id="login">
+	 
+	<div data-role="header">
+			<h1>WELCOME TO SPORTS TRANING WEB APPPLICATION</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content ">
+		<img src="/images/allsports.jpg" alt="Just Eat" width="1750" height="200">
+		<h2>Login</h2>
+		<h3> Existing Customers</h3>
+		Username: <input type="text" id="usernameLogin" name="username"></input>
+		Password: <input type="text" id="passwordLogin" name="password"></input>
+	  
+   <button id="loginstart" class="ui-btn ui-btn-b">Login</button>
+   <p><a> Don't Have Account Yet ?  </a></p>
+   <p><a  href="#registeration" class="ui-btn ui-btn-b">Sign UP</a></p>
+   <p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back To Home Screen </a></p>
+    </div>
+
+</div><!-- /content -->
+
+<!-- /Login Page -->
+<!-- Start of Rejester  page: #three-->
+<div data-role="page" id="registeration">
+	    
+	<div data-role="header">
+			<h1>WELCOME TO SPORTS TRANING WEB APPPLICATION</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		
+			<h2>Register New Member</h2>
+          <p>Please Fill your Details Below</p>
+		Username: <input type="text" id="username" name="username"></input>
+		Password: <input type="text" id="password" name ="password"></input>
+		Email: <input type="text" id="email" name="email"></input>
+	   Member Type: <input type="text" id="acctype" name="acctype"></input>
+	   Telephone: <input type="text" id="address" name="address"></input>
+      <button id="startregister" class="ui-btn ui-btn-b">Sign Up</button>
+	  <p><a> Alread Have Account ?  </a></p>
+	  <p><a  href="#login" class="ui-btn ui-btn-b">Login</a></p>
+   <p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back To Home Screen </a></p>
+   </div>
+   </div>
+	<!-- /content -->
+
+
+
+<!-- /Start of Register  page: --> 
+
+   <!-- Start of Manager  page: -->
+   <div data-role="page" id="manager" data-theme="a">
+
+			<div data-role="header">
+	
+			<h1>JUST EAT</h1>
+	
+			</div><!-- /header -->
+		<div role="main" class="ui-content">
+			
+				<img src="/images/eat.jpg" alt="Just Eat" width="1500" height="100">
+			<h2>Manager</h2>
+	     <table> 
+			 <tr>
+				 <td> Product </td>
+				 <br>
+				 <br>
+				 
+				 <td> Quantity </td>
+				 <br>
+				 <br>
+				
+				 <td> Total Cost </td>
+			 </tr>
+		 </table>
+			
+			<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to Home Screen</a></p>
+	</div><!-- /content -->
+	<div data-role="footer">
+	<h4>Order Food Online from Local Takeaways </h4>
+	</div><!-- /footer -->
+    </div><!-- /page manager -->
+   <!-- /Start of Manager  page: -->
+     <!-- Start of Cook page: -->
+	 <div data-role="page" id="cook" data-theme="a">
+
+			<div data-role="header">
+	    
+			<h1>JUST EAT</h1>
+		
+	
+			</div><!-- /header -->
+		<div role="main" class="ui-content">
+	
+			<h2>Cook </h2>
+		
+			<img src="/images/eat.jpg" alt="Just Eat" width="1500" height="100">
+
+			 Product name:<input type="text" id="productname">
+			 Quantity:<input type="text" id="quantity">
+			 <button id="productbutton">Submit</button>
+
+		
+			
+			<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to Home </a></p>
+	</div><!-- /content -->
+	<div data-role="footer">
+	<h4>Order Food Online from Local Takeaways </h4>
+	</div><!-- /footer -->
+    </div><!-- /page manager -->
+   <!-- /Start of cook page: -->
+    <!-- Start of Customer  page: -->
+	<div data-role="page" id="customer" data-theme="a">
+<!-- panel content goes here -->
+<div data-role="panel" id="mypanel">
+		Your Cart Summary 
+		  <div id="myitems">
+			</div>
+				<button id="placeorder" class="ui-btn">Place Order</button>
+		
+		</div><!-- /panel -->
+  
+			<div data-role="header">
+	
+			<h1>Customer</h1>
+	
+			</div>
+			<!-- /header -->
+		<div role="main" class="ui-content">
+	
+			<h2>Customer</h2>
+			<p> Please Choise your Pizza  here</p>
+			<a href="#mypanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-right ui-icon-bars">Checkout</a>
+		
+<div class="ui-field-contain">
+	<table style="width:100%" align-text: center >
+       <tr>
+		   <th>Product</th>
+		   <th>Quantity</th>
+		   <th>Price</th>
+		   <th>Total Price</th>
+		   <th> Add to Basket</th>
+		   
+	   </tr>
+	  <tr>
+		  <td><label for  = "select-native-2" id= "productname"> BBQ Pizza</label></td>
+		<td><select id ="bbq_pizza_qty" name = "select-native-2" id="select-native-2" data-mini ="true">
+				<option value=""></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></td>
+			<td id="pq_bbq"> 10.99 </td>
+			<td id="tp_bbq"></td>
+		<td><button id="addtocart" onclick="addToCart('bbq_pizza_qty')"> Add To Cart </button></td>
+	  </tr>
+
+
+	  <tr>
+	  <td><label for="select-native-2" id= "productname"> SUFI Pizza</label></td>
+	 
+		<td><select id ="sufi_pizza_qty" name = "select-native-2" data-mini ="true">
+				<option value=""></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			
+			</select></td>
+			<td id="pq_sufi_pizza"> 12.99 </td>
+			<td id="tp_sufi_pizza"></td>
+		<td><button id="addtocart" onclick="addToCart('sufi_pizza_qty')"> Add To Cart </button></td>
+	  </tr>
+
+
+      <tr>
+	  <td><label for  = "select-native-2" id= "productname"> Margherita Pizza</label></td>
+	  <td><select id ="marg_pizza_qty" name = "select-native-2" id="select-native-2" data-mini ="true">
+				<option value=""></option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+			</select></td>
+			<td id="pq_marg_pizza"> 16.99 </td>
+			<td id="tp_marg_pizza"></td>
+		<td><button id="addtocart" onclick="addToCart('marg_pizza_qty')"> Add To Cart </button></td>
+	  </tr>
+	  <tr>
+	  <td><label for  = "select-native-2" id= "productname"> Pizza al Pesto Pizza</label></td>
+	  <td><select id ="palp_pizza_qty" name = "select-native-2" id="select-native-2" data-mini ="true">
+			  <option value=""></option>
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			 
+		  </select></td>
+		  <td id="pq_palp_pizza"> 18.99 </td>
+			<td id="tp_palp_pizza"></td>
+	  <td><button id="addtocart" onclick="addToCart('palp_pizza_qty')"> Add To Cart </button></td>
+	</tr>
+	<tr>
+	<td><label for  = "select-native-2" id= "productname"> Ortolana Pizza</label></td>
+	<td><select id ="oroto_pizza_qty" name = "select-native-2" id="select-native-2" data-mini ="true">
+			  <option value=""></option>
+			  <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+		  </select></td>
+		  <td id="pq_oroto_pizza"> 20.99 </td>
+			<td id="tp_oroto_pizza"></td>
+	  <td><button id="addtocart" onclick="addToCart('orto_pizza_qty')"> Add To Cart </button></td>
+	</tr> 
+</div>
+</table>
+   
+</div>
+<p><a href="#one" data-direction="reverse" class="ui-btn ui-shadow ui-corner-all ui-btn-b">Back to Home </a></p>
+
+	<div data-role="footer">
+	<h4>Order Food Online from Local Takeaways </h4>
+	</div><!-- /footer -->
+    </div><!-- /page customer -->
+   <!-- /Start of Customer page: -->
+<script>
+		$("#loginstart").click(function(e) {
+	  
+		  console.log("clicked");
+		  var un = $("#usernameLogin").val();
+	      var pw = $("#passwordLogin").val();
+		  console.log(un);
+		  console.log(pw);
+			$.post( "/login", { usernameLogin: un, passwordLogin:pw })
+	  
+			.done(function( data ) {
+	  
+				 alert( "Data Loaded: " + data );
+	   
+			 // redirection to the customer page.
+			 if(data == 'Customer')
+			 {
+	         $.mobile.changePage( "#customer",{
+				transition: "pop",
+	  
+					reverse: false,
+	  
+					changeHash: false
+	  
+			  });
+			}
+
+			 // redirection to the manager page.
+			 if(data == 'Manager')
+			 {
+	         $.mobile.changePage( "#manager",{
+				transition: "pop",
+	  
+					reverse: false,
+	  
+					changeHash: false
+	  
+			  });
+			}
+			 // redirection to the manager page.
+			 if(data == 'Cook')
+			 {
+	         $.mobile.changePage( "#cook",{
+				transition: "pop",
+	  
+					reverse: false,
+	  
+					changeHash: false
+	  
+			  });
+			}
+		 });
+	  
+		});
+	 
+  
+  
+  $("#startregister").click(function(e) {
+	
+
+      var ur = $("#username").val();
+	  var pr = $("#password").val();
+	  var em = $("#email").val();
+	  var at = $("#acctype").val();
+	  var aa = $("#address").val();
+
+	  console.log("Username = " + ur);
+	  console.log("Password =" +pr);
+	  console.log("Email = " + em);
+	  console.log("Account type = " +at);
+	  console.log("Address = " +aa);
+
+	 
+      $.post("/registeration", { username : ur, password : pr, email : em, acctype : at, address:aa })
+	   .done(function( data ) {
+		   
+			    $.mobile.changePage("#login",{
+				transition: "pop",
+	            reverse: false,
+	         	changeHash: false
+	  
+			  });
+		 });
+		});
+//place order unction
+$("#productbutton").click(function(e) {
+	 var pname = $("#productname").val();
+	 var qty =  $("#quantity").val();
+
+	 console.log("Product name = " + pname);
+	 console.log("Quantity =" +qty);
+
+        alert("Your Has been submitied");
+	 $.post("/cook", { productname : pname, quantity : qty })
+	   .done(function( data ) {
+		   
+			    $.mobile.changePage("#cook",{
+				transition: "pop",
+	            reverse: false,
+	         	changeHash: false
+	  
+			  });
+		 });
+});
+var myCart = [];
+// start of quanty function
+$( "#bbq_pizza_qty")
+   .change(function () {
+	   var qty = $( "#bbq_pizza_qty").children("option:selected").val();
+	   var tp = 10.99 * qty;
+	   $('#tp_bbq').html(tp);
+   });
+   $( "#sufi_pizza_qty")
+   .change(function () {
+	   var qty = $( "#sufi_pizza_qty").children("option:selected").val();
+	   var tp = 12.99 * qty;
+	   $('#tp_sufi_pizza').html(tp);
+   });
+
+   $( "#marg_pizza_qty")
+   .change(function () {
+	   var qty = $( "#marg_pizza_qty").children("option:selected").val();
+	   var tp = 16.99 * qty;
+	   $('#tp_marg_pizza').html(tp);
+   });
+   $( "#palp_pizza_qty")
+   .change(function () {
+	   var qty = $( "#palp_pizza_qty").children("option:selected").val();
+	   var tp = 18.99 * qty;
+	   $('#tp_palp_pizza').html(tp);
+   });
+   $( "#oroto_pizza_qty")
+   .change(function () {
+	   var qty = $( "#oroto_pizza_qty").children("option:selected").val();
+	   var tp = 20.99 * qty;
+	   $('#tp_oroto_pizza').html(tp);
+   });
+
+
+// end of function 
+function addToCart(itemName){
+    // finding out the name of the ITEM we are adding
+    var item = itemName;
+	console.log(item);
+    
+    // dynamically find out the qty
+	var qty = $('#'+item).children("option:selected").val();
+	console.log(qty);
+    
+    // search the cart and see if we already added
+    // the item. If we did, remove the old qty.
+
+    myCart.forEach(function(itemCurrent, index, array) {
+           
+           
+           
+           if(itemCurrent.includes(item)){
+              console.log("Removing previous reference to " + item);
+              myCart.pop(index);
+           }
+    });
+    
+    
+    // add the item to the cart
+    myCart.push(item +    '='    + qty );
+    $('#myitems').html(myCart) 
+    alert(myCart);
+
+}
+
+
+
+
+
+</script>
+
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  
+  font: 14px  Arial, sans-serif;
+  color:red;
+}
+
+h2 {
+  color:orange;
+}
+
+.ui-content{
+  background-color:black;
+  display: block;
+  color: red;
+}
+div{
+  color: red;
+  font-size:      20px;
+  font-weight:    bold;
+}
+.ui-btn{
+  color:blue;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  color:red;
+}
+
+header{
+  color: black;
+}
+footer{
+  color: red;
+}
+navbar{
+  color:blue;
+}
